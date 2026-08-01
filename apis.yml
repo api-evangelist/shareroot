@@ -1,7 +1,29 @@
 aid: shareroot
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shareroot.png
 name: ShareRoot
-description: ShareRoot is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ShareRoot is an Australian digital marketing and technology company based in St
+  Kilda, Victoria, that helps brands understand market opportunities and engage
+  audiences across digital channels. It operates through several subsidiary
+  brands: the ShareRoot platform for user-generated content (UGC) and brand
+  ambassador programs (social walls, contests, and e-commerce optimization), The
+  Social Science marketing agency focused on Australia's life sciences and health
+  technology sectors, and Ludomade, which builds digital experiences spanning web
+  design, mobile games, VR/AR, and experiential activations. ShareRoot publishes
+  no public developer program, API documentation, or SDKs; this profile captures
+  the company identity and a live domain-security probe for the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/shareroot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Marketing
+- Social Media
+- User Generated Content
+- Digital Experience
+- Advertising
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/shareroot-domain-security.yml
 - type: Website
   url: https://shareroot.co
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
