@@ -42,6 +42,18 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ShareRoot is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+ShareRoot is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network.
+
+**No API surface.** ShareRoot Ltd (ASX: SRO) was renamed **Opyl Limited** (ASX: OPL) after its December
+2019 annual general meeting and repositioned into AI for clinical trials and digital health. The group's
+brands have been wound down — `ludomade.com` now 301-redirects to `opyl.ai`, and `thesocialscience.com.au`
+no longer resolves. `shareroot.co` still answers, but every path returns HTTP 202 with a SiteGround robot
+challenge, no `api`/`developer`/`docs`/`app` subdomain resolves in DNS, and the last readable archived
+pages (2024) are a UGC marketing brochure with no developer program. The ShareRoot GitHub organization has
+had no push since 2017.
+
+What this profile holds: the company identity, a live domain-security probe, a well-known probe recording
+the absence, a registry sweep (two first-party 2016 npm utilities, no SDK), and honest zeros for plans and
+rate limits. See `x-coverage` in `apis.yml`.
 
 Backed by: 500-global — https://shareroot.co

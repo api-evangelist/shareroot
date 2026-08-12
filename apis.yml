@@ -13,17 +13,20 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shareroot.png
 name: ShareRoot
 description: >-
-  ShareRoot is an Australian digital marketing and technology company based in St
-  Kilda, Victoria, that helps brands understand market opportunities and engage
-  audiences across digital channels. It operates through several subsidiary
-  brands: the ShareRoot platform for user-generated content (UGC) and brand
-  ambassador programs (social walls, contests, and e-commerce optimization), The
-  Social Science marketing agency focused on Australia's life sciences and health
-  technology sectors, and Ludomade, which builds digital experiences spanning web
-  design, mobile games, VR/AR, and experiential activations. ShareRoot publishes
-  no public developer program, API documentation, or SDKs; this profile captures
-  the company identity and a live domain-security probe for the API Evangelist
-  network.
+  ShareRoot was a user-generated content (UGC) marketing platform and, as ShareRoot Ltd
+  (ASX: SRO), an Australian listed group headquartered in St Kilda, Victoria. Its brands
+  were the ShareRoot platform for legally acquiring, organising and displaying UGC and
+  brand-ambassador content (social walls, Facebook tabs, contests, experiential galleries
+  and UGC on product pages), The Social Science, a marketing agency for Australia's life
+  sciences and health technology sectors, and Ludomade, a digital-experience studio doing
+  web design, mobile games, VR/AR and experiential activations. Shareholders approved a
+  rename to Opyl Limited (ASX: OPL) at the December 2019 annual general meeting, and the
+  group repositioned into artificial intelligence for clinical trials and digital health;
+  ludomade.com now redirects to opyl.ai. ShareRoot never published a developer program,
+  API documentation, machine-readable specification or client SDK, and shareroot.co is now
+  a stale legacy site sitting behind a bot challenge. This profile captures the company
+  identity, a live domain-security probe, a recorded-absence well-known probe, and the two
+  first-party open-source npm utilities the ShareRoot engineering team published in 2016.
 url: https://raw.githubusercontent.com/api-evangelist/shareroot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -33,7 +36,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-08-12'
 tags:
 - Company
 - Marketing
@@ -52,8 +55,38 @@ common:
   url: security/shareroot-domain-security.yml
 - type: Website
   url: https://shareroot.co
+- type: GitHubOrganization
+  url: https://github.com/ShareRoot
+- type: Packages
+  url: packages/shareroot-packages.yml
+- type: LLMsTxt
+  url: llms/shareroot-llms.txt
+- type: Plans
+  url: plans/shareroot-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/shareroot-rate-limits.yml
 x-enrichment:
-  date: '2026-07-21'
+  date: '2026-08-12'
   status: minimal
-  artifacts_added: 1
+  artifacts_added: 5
   pass: local-v1
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    ShareRoot Ltd was renamed Opyl Limited (ASX: OPL) after its December 2019 AGM and the
+    brand was wound down — ludomade.com 301-redirects to opyl.ai, thesocialscience.com.au
+    no longer resolves, no api/developer/docs/app subdomain of shareroot.co exists in DNS,
+    the ShareRoot GitHub organization has had no push since 2017, and shareroot.co itself
+    is a stale legacy site whose last readable archived pages (2024) show a UGC marketing
+    brochure with injected SEO-spam and no developer program anywhere on it.
+  evidence:
+  - url: https://shareroot.co/openapi.json
+    status: 202
+  - url: https://ludomade.com/
+    status: 301
+  - url: https://web.archive.org/web/20240713162126/https://www.shareroot.co/products/
+    status: 200
+  - url: https://api.github.com/orgs/ShareRoot/repos
+    status: 200
+  checked: '2026-08-12'

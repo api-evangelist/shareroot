@@ -1,0 +1,62 @@
+generated: '2026-08-12'
+method: searched
+source: >-
+  registry.npmjs.org metadata endpoints + the ShareRoot GitHub organization
+  (https://github.com/ShareRoot, HTTP 200)
+note: >-
+  ShareRoot publishes no API client SDK in any registry. The two packages below ARE
+  first-party — both are published from repositories in ShareRoot's own GitHub
+  organization — but neither is a client library for a ShareRoot API; they are general
+  purpose utilities the team open-sourced (a radix-trie search index and an Open
+  Graph / schema.org metadata scraper). Because no SDK wraps a ShareRoot API, NO
+  `SDKs` pointer is emitted; only `Packages`. Both releases are from 2016 and the
+  GitHub organization has had no push since 2017, which is itself the abandonment
+  signal for this surface. Searched and not found: PyPI (shareroot 404), Maven Central,
+  NuGet, pkg.go.dev, RubyGems, Packagist, crates.io, and npm for "shareroot"
+  (0 first-party results).
+packages:
+- language: javascript
+  registry: npm
+  name: raddog
+  url: https://www.npmjs.com/package/raddog
+  install: npm install raddog
+  official: true
+  api_client: false
+  version: 1.0.5
+  published: '2016-10-21'
+  license: MIT
+  repository: https://github.com/ShareRoot/raddog
+  description: Simple, modifiable item-title search index based on radix tries.
+- language: javascript
+  registry: npm
+  name: metadog
+  url: https://www.npmjs.com/package/metadog
+  install: npm install metadog
+  official: true
+  api_client: false
+  version: 0.0.9
+  published: '2016-11-02'
+  license: MIT
+  repository: https://github.com/ShareRoot/metadog
+  description: Sniffs out and fetches Open Graph and schema.org metadata from webpages.
+registries_checked:
+- registry: npm
+  result: 2 first-party utility packages found; no SDK
+- registry: pypi
+  result: 404 for "shareroot"; no first-party package
+- registry: rubygems
+  result: no first-party package
+- registry: maven-central
+  result: no first-party package
+- registry: nuget
+  result: no first-party package
+- registry: pkg.go.dev
+  result: no first-party package
+- registry: packagist
+  result: no first-party package
+- registry: crates.io
+  result: no first-party package
+summary:
+  package_count: 2
+  official_sdk_count: 0
+  latest_release: '2016-11-02'

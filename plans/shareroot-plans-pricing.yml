@@ -1,0 +1,15 @@
+generated: '2026-08-12'
+method: searched
+source: >-
+  https://shareroot.co/ (HTTP 202, bot challenge) and the last readable archived pages
+  at https://web.archive.org/web/20240713162126/https://www.shareroot.co/products/ (HTTP 200)
+plan_count: 0
+plans: []
+note: >-
+  No published plans or pricing. ShareRoot never listed a pricing page: the archived site
+  offers only "Free Trial", "Request a Demo" and "Contact Us" calls to action, with no
+  tiers, quotas or prices anywhere on the marketing site. The live site cannot be read at
+  all — every path on shareroot.co answers HTTP 202 with a SiteGround robot challenge — and
+  the listed entity behind it was renamed Opyl Limited (ASX: OPL) after the December 2019
+  AGM, so there is no current ShareRoot commercial surface to price. Recorded as an honest
+  zero, not an omission.

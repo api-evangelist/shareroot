@@ -1,0 +1,13 @@
+generated: '2026-08-12'
+method: searched
+source: >-
+  Contract discovery against shareroot.co and www.shareroot.co (all paths HTTP 202,
+  bot challenge) plus the ShareRoot GitHub organization (https://github.com/ShareRoot)
+limit_count: 0
+rate_limits: []
+headers: []
+note: >-
+  No rate limits documented, because no API is documented. ShareRoot publishes no
+  developer portal, API reference, OpenAPI/AsyncAPI/GraphQL contract or MCP server on
+  any host it controls, so there is no runtime limit surface, no X-RateLimit-*/RateLimit-*
+  headers and no exhaustion status code to record. Recorded as an honest zero.
