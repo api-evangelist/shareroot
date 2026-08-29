@@ -39,6 +39,9 @@ description: >-
   identity, a live domain-security probe, a recorded-absence well-known probe, and the two
   first-party open-source npm utilities the ShareRoot engineering team published in 2016.
 url: https://raw.githubusercontent.com/api-evangelist/shareroot/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "ShareRoot never published a developer program, API documentation, machine-readable specification or client SDK, and shareroot.co is now a stale legacy site sitting behind a bot challenge."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
