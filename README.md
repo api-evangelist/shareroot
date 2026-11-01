@@ -64,18 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ShareRoot is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network.
+ShareRoot was a user-generated content (UGC) marketing platform and, as ShareRoot Ltd (ASX: SRO), an Australian listed group headquartered in St Kilda, Victoria. Its brands were the ShareRoot platform for legally acquiring, organising and displaying UGC and brand-ambassador content (social walls, Facebook tabs, contests, experiential galleries and UGC on product pages), The Social Science, a marketing agency for Australia's life sciences and health technology sectors, and Ludomade, a digital-experience studio doing web design, mobile games, VR/AR and experiential activations. Shareholders approved a rename to Opyl Limited (ASX: OPL) at the December 2019 annual general meeting, and the group repositioned into artificial intelligence for clinical trials and digital health; ludomade.com now redirects to opyl.ai. ShareRoot never published a developer program, API documentation, machine-readable specification or client SDK, and shareroot.co is now a stale legacy site sitting behind a bot challenge. This profile captures the company identity, a live domain-security probe, a recorded-absence well-known probe, and the two first-party open-source npm utilities the ShareRoot engineering team published in 2016.
 
-**No API surface.** ShareRoot Ltd (ASX: SRO) was renamed **Opyl Limited** (ASX: OPL) after its December
-2019 annual general meeting and repositioned into AI for clinical trials and digital health. The group's
-brands have been wound down — `ludomade.com` now 301-redirects to `opyl.ai`, and `thesocialscience.com.au`
-no longer resolves. `shareroot.co` still answers, but every path returns HTTP 202 with a SiteGround robot
-challenge, no `api`/`developer`/`docs`/`app` subdomain resolves in DNS, and the last readable archived
-pages (2024) are a UGC marketing brochure with no developer program. The ShareRoot GitHub organization has
-had no push since 2017.
+**Areas:** Company · Marketing · Social Media · User Generated Content · Digital Experience · Advertising
 
-What this profile holds: the company identity, a live domain-security probe, a well-known probe recording
-the absence, a registry sweep (two first-party 2016 npm utilities, no SDK), and honest zeros for plans and
-rate limits. See `x-coverage` in `apis.yml`.
+## ShareRoot on APIs.io
 
-Backed by: 500-global — https://shareroot.co
+Everything profiled for ShareRoot is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shareroot/](https://apis.io/providers/shareroot/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shareroot Domain Security](https://apis.io/security/shareroot/shareroot-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Shareroot Plans Pricing](https://apis.io/plans/shareroot/shareroot-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Shareroot Rate Limits](https://apis.io/rate-limits/shareroot/shareroot-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://shareroot.co)
+- [GitHub](https://github.com/ShareRoot)
+
+## API Evangelist rating
+
+**Kin Score 3.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shareroot/](https://apis.io/providers/shareroot/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ShareRoot: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shareroot/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
